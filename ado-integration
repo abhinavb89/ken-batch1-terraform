@@ -3,3 +3,5 @@
 ssh-keygen -t rsa 
 ###################################################
 copy the public key and upload it inside ado
+
+cat C:\Users\gopal\.ssh\id_rsa.pub
