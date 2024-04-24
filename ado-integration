@@ -5,3 +5,18 @@ ssh-keygen -t rsa
 copy the public key and upload it inside ado
 
 cat C:\Users\gopal\.ssh\id_rsa.pub
+
+#########next in our workstation we will make the code ours
+
+ 40 rm .git
+  41 git config --global user.name "gopal"
+  42 git config --global user.email "gopal1409@gmail.com"
+  #the purpose of global varaible wheneever you create a version the code will have a name and email id 
+  ##again i ll intialized teh code
+  43 git init
+  ###git add will move my code to staging area
+  44 git add .
+  ##git commit will create my version 
+  45 git commit -m "terraform code to create vm"
+  ###git log will show the versxion
+  46 git log
