@@ -1,0 +1,5 @@
+##first i need to upload the key inside the ado repo. to do the same we will do the authentication
+
+ssh-keygen -t rsa 
+###################################################
+copy the public key and upload it inside ado
