@@ -23,4 +23,9 @@ cat C:\Users\gopal\.ssh\id_rsa.pub
 
   ###to do the authentication we need to create a service princiapl using the service principal we can do the authentication
   ##service princiapl with contributor role need to be created 
-  az ad sp create-for-rbac -n "kenservicep" --role contributor --scope /subscriptions/def2cf32-c635-4684-ad00-5703dbddbe44    
+  az ad sp create-for-rbac -n "kenservicep" --role contributor --scope /subscriptions/def2cf32-c635-4684-ad00-5703dbddbe44 
+  #lets install the agent 
+   2  mkdir myagent && cd myagent
+    3  wget https://vstsagentpackage.azureedge.net/agent/3.238.0/vsts-agent-linux-x64-3.238.0.tar.gz
+    4  tar zxvf vsts-agent-linux-x64-3.238.0.tar.gz
+   
