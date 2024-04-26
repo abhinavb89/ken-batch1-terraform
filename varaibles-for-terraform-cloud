@@ -1,0 +1,8 @@
+#there are already defined varables given for terraform cloud
+
+https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
+
+client_id : will be your service principal out take the appid
+subscription_id: get the azure subscription id 
+tenant_id : tenant id is visible
+client_secret: password
