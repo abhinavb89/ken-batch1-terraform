@@ -1,0 +1,7 @@
+###to visualized all the resource created in the state file
+17 terraform state
+#this will give you list of resource created
+  18 terraform state list
+  ##to get details information about the resource
+  19 terraform show
+  20 terraform state show aws_security_group.allow_http
